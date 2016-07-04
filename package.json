@@ -1,6 +1,6 @@
 {
   "name": "meteor-react-prebind",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Allows easy 'this' binding of all React methods (except lifecycle methods) a la classic React.createClass",
   "main": "lib/prebind.js",
   "scripts": {

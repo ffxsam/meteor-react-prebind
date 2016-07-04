@@ -2,6 +2,8 @@
 
 Automatically binds methods defined within a component's Class to the current object's lexical `this` instance (similarly to the default behavior of React.createClass).
 
+***NOTE:*** Though this is branded as a Meteor package, it can safely be used with regular React projects.
+
 ### Description
 
 As you probably know, React ES6 class methods are not automatically bound to `this` in the same way that they are when using the classic `React.createClass` method. This led many people to bind their methods at the time of passing them as props, e.g.:
